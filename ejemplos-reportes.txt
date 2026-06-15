@@ -1,0 +1,12 @@
+ejemplo 1
+
+{
+  "tipo": "Espacios Públicos",
+  "descripcion": "Bioparque con juegos infantiles dañados y maquinas deterioradas ."
+}
+
+ejemplo 2
+{
+  "tipo": "Vías",
+  "descripcion": "bache grande en la avenida principal que dificulta la movilidad de los usuarios y puede causar accidentes."
+}

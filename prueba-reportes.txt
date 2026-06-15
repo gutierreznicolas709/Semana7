@@ -1,0 +1,42 @@
+PRUEBA DE LA RUTA POST Y GET
+
+1. Se probó la ruta POST:
+   http://localhost:3000/reportes
+
+   JSON enviado:
+
+   {
+     "tipo": "Infraestructura",
+     "descripcion": "Daño en alumbrado público"
+   }
+
+2. Respuesta obtenida:
+
+   {
+     "mensaje": "Reporte registrado",
+     "reporte": {
+       "id": 2,
+       "tipo": "Infraestructura",
+       "descripcion": "Daño en alumbrado público"
+     }
+   }
+
+3. Se probó la ruta GET:
+   http://localhost:3000/reportes
+
+4. Resultado obtenido:
+
+   [
+     {
+       "id": 1,
+       "tipo": "Infraestructura",
+       "descripcion": "Daño en alumbrado público"
+     },
+     
+   ]
+
+
+¿Qué sucede al consultar los reportes?
+
+Cuando se usa la ruta GET, el servidor devuelve todos los reportes que se han registrado. 
+Cada vez que se envía un reporte con POST, este se guarda y luego puede verse cuando se consulta la ruta GET.
