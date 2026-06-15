@@ -7,6 +7,6 @@ ejemplo 1
 
 ejemplo 2
 {
-  "tipo": "Vías",
+  "tipo": "Infraestructura",
   "descripcion": "bache grande en la avenida principal que dificulta la movilidad de los usuarios y puede causar accidentes."
 }
